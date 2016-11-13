@@ -35,15 +35,18 @@
   .header-container .logo {
     margin: 35px 0 35px 5px; }
   .header-container .icon-links {
-    margin-left: 5px; }
-    .header-container .icon-links .icon-links__icon {
-      margin-right: 20px;
-      color: #000;
-      font-size: 14px;
-      opacity: .2; }
-      .header-container .icon-links .icon-links__icon:hover {
-        color: #248cec;
-        opacity: 1; }
+    margin-right: 5px; }
+    .header-container .icon-links .icon-links__item {
+      margin-right: 14px; }
+      .header-container .icon-links .icon-links__item:last-child {
+        margin-right: 0; }
+      .header-container .icon-links .icon-links__item .icon-links__icon {
+        color: #000;
+        font-size: 18px;
+        opacity: .2; }
+        .header-container .icon-links .icon-links__item .icon-links__icon:hover {
+          color: #248cec;
+          opacity: 1; }
 
 .nav {
   margin-bottom: 40px; }
